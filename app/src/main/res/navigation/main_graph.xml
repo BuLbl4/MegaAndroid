@@ -11,15 +11,6 @@
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
-            android:id="@+id/action_mainFragment_to_listFragment"
-            app:destination="@id/listFragment" />
-        <action
-            android:id="@+id/action_mainFragment_to_profileFragment"
-            app:destination="@id/profileFragment" />
-        <action
-            android:id="@+id/action_mainFragment_to_settingsFragment"
-            app:destination="@id/settingsFragment" />
-        <action
             android:id="@+id/action_mainFragment_to_secretFragment"
             app:destination="@id/secretFragment" />
     </fragment>
@@ -37,15 +28,6 @@
         android:name="com.itis.hw2.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" >
-        <action
-            android:id="@+id/action_profileFragment_to_shopFragment"
-            app:destination="@id/shopFragment" />
-        <action
-            android:id="@+id/action_profileFragment_to_settingsFragment"
-            app:destination="@id/settingsFragment" />
-        <action
-            android:id="@+id/action_profileFragment_to_listFragment"
-            app:destination="@id/listFragment" />
         <action
             android:id="@+id/action_profileFragment_to_secretFragment"
             app:destination="@id/secretFragment" />

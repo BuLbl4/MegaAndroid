@@ -14,7 +14,8 @@ class LastFragment: Fragment(R.layout.fragment_last) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentLastBinding.bind(view)
         val name = arguments?.getString(ClassName)
-        Snackbar.make(binding?.root!!,name.toString(),Snackbar.LENGTH_LONG).show()
+        val value = requireView()
+        Snackbar.make(value,name.toString(),Snackbar.LENGTH_LONG).show()
     }
 
     override fun onDestroy() {
