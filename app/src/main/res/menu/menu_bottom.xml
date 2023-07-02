@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/baseline_person_pin_person"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/listOfPlanetFragment"
+        android:icon="@drawable/baseline_format_list_bulleted_listof"
+        android:title="@string/list_earth" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/baseline_settings_24_settings"
+        android:title="@string/settings" />
+    <item
+        android:id="@+id/seeMoreFragment"
+        android:icon="@drawable/baseline_bookmark_24"
+        android:title="SeeMore" />
+</menu>
