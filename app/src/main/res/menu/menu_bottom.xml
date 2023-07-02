@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/home_48px"
+        android:title="Main" />
+    <item
+        android:id="@+id/listFragment"
+        android:icon="?android:attr/fingerprintAuthDrawable"
+        android:title="Properties" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/pers"
+        android:title="Profile" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/set"
+        android:title="Settings" />
+    <item
+        android:id="@+id/shopFragment"
+        android:icon="@drawable/monetization_on_48px"
+        android:title="Shop" />
+</menu>
